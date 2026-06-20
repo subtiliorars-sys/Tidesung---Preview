@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tidesung — A Meditative Whale-Song Experience</title>
+  <meta name="description" content="A single, perfect moment: you are a young whale on a solo journey through the deep. Use whale songs to interact with the ocean — calling to creatures, triggering bioluminescence, feeling the pull of migration and belonging." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg, #020810 0%, #081830 40%, #0c2848 70%, #040c18 100%);
+      color: #c8dce8;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .container { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { text-align: center; padding: 3.5rem 1rem 2rem; }
+    .logo { font-size: 2.6rem; font-weight: 300; color: #ffffff; letter-spacing: 0.2em; text-transform: uppercase; }
+    .tagline { color: #6898b8; font-size: 1.15rem; margin-top: 0.5rem; font-style: italic; }
+    .hero { text-align: center; margin: 2.5rem 0; }
+    .hero h2 { font-size: 1.3rem; color: #98c0d8; margin-bottom: 0.5rem; font-weight: 300; }
+    .hero p { color: #a0b8c8; max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.05rem; }
+    .cta-group { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin: 1.5rem 0; }
+    a.btn { display: inline-block; padding: 0.85rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: transform 0.15s; }
+    a.btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: #5aa0c8; color: #fff; }
+    .btn-secondary { background: rgba(255,255,255,0.06); color: #c8d8e8; border: 1px solid rgba(255,255,255,0.15); }
+    .btn-wishlist { background: rgba(255,255,255,0.04); color: #7098b0; border: 1px dashed rgba(255,255,255,0.15); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin: 2rem 0; }
+    .feature { background: rgba(255,255,255,0.03); padding: 1.25rem; border-radius: 10px; border-top: 3px solid #5aa0c8; }
+    .feature h3 { font-size: 1rem; color: #a0c8e0; margin-bottom: 0.4rem; }
+    .feature p { font-size: 0.9rem; color: #7890a0; }
+    .experience { background: rgba(10,30,60,0.4); padding: 1.5rem; border-radius: 10px; margin: 2rem 0; }
+    .experience h2 { color: #98c0d8; font-weight: 300; margin-bottom: 1rem; font-size: 1.3rem; }
+    .exp-list { list-style: none; padding: 0; }
+    .exp-list li { padding: 0.6rem 0; color: #7a94a8; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .exp-list li::before { content: "☆ "; color: #5aa0c8; }
+    .themes { margin: 2rem 0; }
+    .themes h2 { color: #98c0d8; font-weight: 300; margin-bottom: 1rem; font-size: 1.3rem; }
+    .theme-item { padding: 0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); color: #7a94a8; }
+    .theme-item strong { color: #b0d0e0; }
+    .quote { border-left: 3px solid #5aa0c8; padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(90,160,200,0.05); font-style: italic; color: #a0c0d0; }
+    footer { text-align: center; padding: 2rem 1rem; color: #334455; font-size: 0.85rem; }
+    @media (max-width: 600px) {
+      .logo { font-size: 1.6rem; letter-spacing: 0.1em; }
+      .cta-group { flex-direction: column; align-items: stretch; }
+      a.btn { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">Tidesung</h1>
+    <p class="tagline">A meditative whale-song experience exploring communication and connection in the ocean.</p>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>🌊 One Journey. One Song. No Words Needed.</h2>
+      <p>A single, perfect moment: you are a young whale on a solo journey through the deep. Using whale songs, you interact with the ocean around you — calling to creatures, triggering bioluminescence, feeling the pull of migration and belonging.</p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="play/index.html">▶ Experience Demo</a>
+        <a class="btn btn-secondary" href="https://github.com/subtiliorars-sys/Tidesung---Preview">⭐ Star on GitHub</a>
+        <span class="btn btn-wishlist">🐋 Coming Soon</span>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>🎵 Song as Language</h3>
+        <p>No dialogue, no text. Communication happens through whale vocalizations — a universal language of melody.</p>
+      </div>
+      <div class="feature">
+        <h3>✨ Bioluminescent World</h3>
+        <p>Your songs trigger light in the darkness. The ocean responds to your presence in shimmering, living color.</p>
+      </div>
+      <div class="feature">
+        <h3>🌅 Migration & Belonging</h3>
+        <p>Feel the pull of ancient routes. Discover your place in a vast, interconnected community of ocean beings.</p>
+      </div>
+      <div class="feature">
+        <h3>🎧 Meditative Play</h3>
+        <p>No combat. No fail states. No pressure. Just beauty, music, and the deep ocean at your own pace.</p>
+      </div>
+    </section>
+
+    <section class="experience">
+      <h2>What You'll Experience</h2>
+      <ul class="exp-list">
+        <li>25–35 minutes of uninterrupted, narrative-driven exploration</li>
+        <li>A living ocean ecosystem that responds to your songs</li>
+        <li>Whale vocalizations grounded in real cetacean communication research</li>
+        <li>An ambient soundscape inspired by the deep sea</li>
+        <li>A story told without words — through music, light, and motion</li>
+      </ul>
+    </section>
+
+    <section class="themes">
+      <h2>💡 Themes</h2>
+      <div class="theme-item"><strong>Connection Without Words:</strong> Communicating across difference without translation</div>
+      <div class="theme-item"><strong>Solitude & Community:</strong> Being alone while never truly separate</div>
+      <div class="theme-item"><strong>Beauty & Wonder:</strong> Finding awe in the natural world</div>
+      <div class="theme-item"><strong>Journey & Return:</strong> The oldest story — leaving home, finding yourself, coming back</div>
+    </section>
+
+    <div class="quote">
+      "Inspired by Flower (thatgamecompany) and real whale communication research — a short, meditative game about the ocean, music, and belonging."
+    </div>
+
+    <section style="text-align:center; margin:3rem 0;">
+      <p style="color:#7799bb; margin-bottom:1rem;">⭐ Star the repo to follow development</p>
+      <div class="cta-group" style="justify-content:center;">
+        <a class="btn btn-primary" href="https://github.com/subtiliorars-sys/Tidesung---Preview">View on GitHub</a>
+        <a class="btn btn-secondary" href="docs/CONCEPT.md">Read the Concept Doc</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 · Tidesung · Concept stage — a 25–35 minute experience
+  </footer>
+</body>
+</html>
