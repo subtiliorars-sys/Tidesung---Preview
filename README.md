@@ -23,6 +23,13 @@ This folder contains:
 
 The full source code, assets, and build system are in the private **Tidesung** repository.
 
+## Fleet
+
+Part of the **subtiliorars-sys** fleet:
+
+- [Connectome](https://github.com/subtiliorars-sys/neural-network/tree/main/connectome) — fleet topology and cross-repo links
+- [Tidesung](https://github.com/subtiliorars-sys/Tidesung) — private HQ repository (source, assets, build)
+
 ## Status
 
 🚧 In active development
